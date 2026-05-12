@@ -1,1 +1,167 @@
-Welcome to CI/CD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom Garden</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: #fff8f5;
+      color: #333;
+    }
+
+    header{
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1{
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    nav{
+      background: #ff6f91;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a{
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover{
+      text-decoration: underline;
+    }
+
+    .hero{
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero img{
+      width: 300px;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .flowers{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+    }
+
+    .card{
+      background: white;
+      width: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover{
+      transform: translateY(-10px);
+    }
+
+    .card img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content{
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-content h3{
+      color: #ff4f81;
+      margin-bottom: 10px;
+    }
+
+    footer{
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌸 Bloom Garden 🌸</h1>
+    <p>Where flowers bloom, so does happiness</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Flowers</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Our Flower World</h2>
+    <p>Discover beautiful flowers filled with fragrance and colors.</p>
+
+    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946"
+         alt="Flowers">
+  </section>
+
+  <section class="flowers">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7"
+           alt="Rose">
+      <div class="card-content">
+        <h3>Rose</h3>
+        <p>The symbol of love and beauty.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+           alt="Sunflower">
+      <div class="card-content">
+        <h3>Sunflower</h3>
+        <p>Bright and cheerful like sunshine.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551"
+           alt="Tulip">
+      <div class="card-content">
+        <h3>Tulip</h3>
+        <p>Elegant flowers with vibrant colors.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Bloom Garden | Made with 🌷</p>
+  </footer>
+
+</body>
+</html>
